@@ -1,13 +1,24 @@
-p {
-  color: purple;
-  font-size: 20px;
-  font-family: arial;
-}
-h2 {
-  color: black;
+body {
+  font-size: 50px;
+  color: White;
   font-family: cursive;
+  text-align: center;
 }
 h1 {
-  color: violet;
-  font: Comic Sans MS Bold.ttf;
+  font-size: 20px;
+  color: White;
+  font-family: times;
+  text-align: center;
+}
+.btn {
+  color: Purple;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: white .5s;
+}
+.container {
+  color: white;
+  size: 1000px
+  padding: 20px;
 }
