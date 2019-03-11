@@ -1,3 +1,10 @@
+img {
+  opacity: 1;
+}
+p {
+  font-size: 20px;
+  font-family: times;
+}
 body {
   font-size: 50px;
   color: White;
@@ -5,13 +12,13 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 20px;
+  font-size: 40px;
   color: White;
   font-family: times;
   text-align: center;
 }
 .btn {
-  color: Purple;
+  color: White;
   background: #000;
   padding: 10px 40px;
   text-decoration: none;
@@ -22,3 +29,28 @@ h1 {
   size: 1000px
   padding: 20px;
 }
+.btn:hover, .nav ul li:hover {
+  background: #334a;
+  border: 6px solid purple
+  cursor: pointer;
+  transition: background .5s;
+ }
+ #cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #cf img.top:hover {
+    opacity:0;
+  }
