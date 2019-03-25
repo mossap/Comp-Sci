@@ -24,10 +24,22 @@ h1 {
   text-decoration: none;
   transition: white .5s;
 }
+ul{
+  font-size: 40px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 40px;
+  font-weight: normal;
+}
 .container {
   color: white;
-  size: 1000px
+  size: 1050px
   padding: 20px;
+  border: 6px;
+  background: #334a;
 }
 .btn:hover, .nav ul li:hover {
   background: #334a;
@@ -54,3 +66,55 @@ h1 {
   #cf img.top:hover {
     opacity:0;
   }
+  a {
+    color: pink;
+  }
+  button {
+    color: White;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none;
+    transition: white .5s;
+  }
+  button:hover, .nav ul li:hover {
+    background: #334a;
+    border: 6px solid purple
+    cursor: pointer;
+    transition: background .5s;
+  }
+    dropbtn{
+      color: black;
+      background: #000;
+      padding: 10px 40px;
+      text-decoration: none;
+      transition: white .5s;
+    }
+
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: black;
+    }
+
+    .dropdown-content a:hover {background-color: background .5s;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: black;}
